@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
@@ -6,6 +8,7 @@
 
 body{
     background: rgb(5, 7, 19);
+    /* overflow: hidden; */
 }
 
 :root{
@@ -58,7 +61,7 @@ header{
     }
 }
 
-p{
+.header-txt{
     position: absolute;
     z-index: 1;
     font-size: 40px;
@@ -69,3 +72,49 @@ p{
 
 /*                          Header                          */
 
+/*                          section                         */
+
+.first-section{ /*Primeira principal*/
+    margin: 60px 0px 0px 0px;
+    background: greenyellow;
+    /* padding: 10px; */
+    width: 100vw;
+}
+
+.first-content{
+    display: flex;
+    /* flex-wrap: wrap; */ /*Tera de ser usado futuramente. Os tamanhos trão de ser mudados.*/
+    background: blue;
+    /* text-align: justify; */
+    text-indent: 20px;
+    font-family: 'calibri';
+    font-size: 25px;
+    height: 300px;
+}
+
+.about-me{ /*texto sobre mim. Tag <p>*/
+    color: white;
+    /* font-size: 18px; */
+    padding: 0px 10px 0px 40px;
+}
+
+.img-space{ /*Espaço da imagem no flex*/
+    display: flex;
+    justify-content: center;
+    background: red;
+    min-height: 100%;
+    min-width: 50%;
+}
+
+.imagem{ /*Container da imagem*/
+    width: 300px;
+    height: 300px;
+    margin: 0px 25px 0px 0px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    border-radius:10px;
+    /* object-fit: cover; */
+}
