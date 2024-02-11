@@ -154,6 +154,7 @@ span{
 .all-about{
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 #about-me-rest{
@@ -166,13 +167,13 @@ span{
     width: 80px;
     background: none;
     border: none;
-    margin: 10px 30px 0px 0px;
+    margin: 10px 30px -10px 0px;
     color: rgb(202, 202, 255);
     cursor: pointer;
     transition: .3s;
 }
 
 #see-more-btn:hover{
-    margin: 13px 30px 0px 0px;
+    margin: 13px 30px -13px 0px;
     color: white;
 }
